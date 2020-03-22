@@ -18,6 +18,7 @@ yay -S --noconfirm --needed zsh
 yay -S --noconfirm --needed zsh-completions
 yay -S --noconfirm --needed oh-my-zsh-git
 yay -S --noconfirm --needed zsh-theme-powerlevel9k
+chsh -s $(which zsh)
 
 # browser & mail
 yay -S --noconfirm --needed firefox
@@ -28,9 +29,13 @@ yay -S --noconfirm --needed thunderbird
 yay -S --noconfirm --needed jetbrains-toolbox
 yay -S --noconfirm --needed sublime-text
 
+# gtk theme
+yay -S --noconfirm --needed zorin-desktop-themes
+
 # font
 yay -S --noconfirm --needed ttf-iosevka-ss08
 yay -S --noconfirm --needed ttf-iosevka-term-ss08
+yay -S --noconfirm --needed system-san-francisco-font-git
 
 # chat
 yay -S --noconfirm --needed rambox
@@ -38,7 +43,7 @@ yay -S --noconfirm --needed discord
 
 # misc
 yay -S --noconfirm --needed jdownloader2
-yay -S --noconfirm --needed keeweb
+yay -S --noconfirm --needed keepassxc
 yay -S --noconfirm --needed mpv
 yay -S --noconfirm --needed audacious
 yay -S --noconfirm --needed dropbox
