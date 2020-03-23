@@ -16,7 +16,7 @@ yay -S --noconfirm --needed ranger
 # zsh
 yay -S --noconfirm --needed zsh
 yay -S --noconfirm --needed zsh-completions
-yay -S --noconfirm --needed oh-my-zsh-git
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 yay -S --noconfirm --needed zsh-theme-powerlevel9k
 chsh -s $(which zsh)
 
