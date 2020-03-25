@@ -2,8 +2,6 @@
 
 repoDir="$HOME/Workspace/manjaro-dotfiles"
 
-cp -r $HOME/.config/alacritty/* $repoDir/.config/alacritty/
-
 if [ -e $HOME/.gitconfig ]
  then cp $HOME/.gitconfig $repoDir/
 fi

@@ -9,7 +9,6 @@ yay -S --noconfirm --needed openvpn
 yay -S --noconfirm --needed openvpn-update-resolv-conf-git
 
 # terminal
-yay -S --noconfirm --needed alacritty
 yay -S --noconfirm --needed htop
 yay -S --noconfirm --needed ranger
 
@@ -29,8 +28,10 @@ yay -S --noconfirm --needed thunderbird
 yay -S --noconfirm --needed jetbrains-toolbox
 yay -S --noconfirm --needed sublime-text
 
-# gtk theme
-yay -S --noconfirm --needed zorin-desktop-themes
+# gnome
+yay -S --noconfirm --needed mojave-gtk-theme-git-new
+yay -S --noconfirm --needed mojave-ct-icon-theme-git
+yay -S --noconfirm --needed gnome-mojave-timed-wallpaper
 
 # font
 yay -S --noconfirm --needed ttf-iosevka-ss08
@@ -38,7 +39,7 @@ yay -S --noconfirm --needed ttf-iosevka-term-ss08
 yay -S --noconfirm --needed system-san-francisco-font-git
 
 # chat
-yay -S --noconfirm --needed rambox
+yay -S --noconfirm --needed slack-desktop
 yay -S --noconfirm --needed discord
 
 # misc
